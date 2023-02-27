@@ -6,6 +6,12 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+:root {
+  --main-text-color: #1E1E1E;
+  --main-detail-color: #CCCF18;
+  --shady-detail-color: #81831b;
+}
+
 body {
   margin: 0;
   min-width: 100vw;
@@ -37,6 +43,7 @@ button {
   outline: none;
   color: inherit;
   background: none
-}`;
+}
+`;
 
 export default GlobalStyle;
