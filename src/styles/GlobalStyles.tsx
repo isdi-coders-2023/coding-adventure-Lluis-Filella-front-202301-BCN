@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import "@fontsource/saira-stencil-one";
+import "@fontsource/roboto";
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -16,6 +17,7 @@ body {
   margin: 0;
   min-width: 100vw;
   min-height: 100vh;
+  font-family: "Roboto";
 }
 
 a,
