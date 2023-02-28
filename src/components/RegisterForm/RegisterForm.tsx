@@ -7,12 +7,12 @@ interface RegisterFormProps {
 const RegisterForm = ({ submitForm }: RegisterFormProps): JSX.Element => {
   return (
     <>
-      <h2 className="form_title">Register for the event</h2>
+      <h2 className="form__title">Register for the event</h2>
       <form className="form" onSubmit={submitForm}>
-        <label className="form_email-label" htmlFor="email">
+        <label className="form__label" htmlFor="email">
           Email
           <input
-            className="form_email-input"
+            className="form_input"
             type="email"
             placeholder="Introduce your email"
             id="email"
@@ -25,10 +25,10 @@ const RegisterForm = ({ submitForm }: RegisterFormProps): JSX.Element => {
             Email is required
           </span>
         </label>
-        <label className="form_password-label" htmlFor="password">
+        <label className="form__label" htmlFor="password">
           Password
           <input
-            className="form_password-input"
+            className="form__input"
             type="password"
             placeholder="Introduce your password"
             id="password"
@@ -41,10 +41,10 @@ const RegisterForm = ({ submitForm }: RegisterFormProps): JSX.Element => {
             Password is required
           </span>
         </label>
-        <label className="form_image-label" htmlFor="image">
+        <label className="form__label" htmlFor="image">
           Image
           <input
-            className="form_image-input"
+            className="form__input"
             type="file"
             placeholder="Introduce an image"
             id="image"
