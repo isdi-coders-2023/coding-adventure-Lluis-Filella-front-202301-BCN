@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const ButtonStyled = styled.button`
   background-color: var(--main-detail-color);
-  width: 320px;
+  width: 325px;
   height: 40px;
   border-radius: 10px;
   border: none;
   color: var(--main-text-color);
   font-size: 20px;
-  font-family: "Saira Stencil One";
+  font-family: var(--secondary-font);
   cursor: pointer;
 
   :disabled {
