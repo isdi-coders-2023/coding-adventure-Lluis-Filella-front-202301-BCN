@@ -8,13 +8,20 @@ const GlobalStyle = createGlobalStyle`
 }
 
 :root {
+  --main-back-background-color: #1E1E1E;
   --main-text-color: #1E1E1E;
   --main-detail-color: #CCCF18;
   --shady-detail-color: #81831b;
+  --main-input-color: #e8e8e8;
+  --error-color: #F3949A;
+
+  --secondary-font: "Saira Stencil One"
 }
 
 body {
+  background-color: var(--main-back-background-color);
   margin: 0;
+  padding: 10px;
   min-width: 100vw;
   min-height: 100vh;
   font-family: "Roboto";
@@ -26,6 +33,11 @@ a:active,
 a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+  font-weight: inherit;
 }
 
 ul {
