@@ -21,11 +21,12 @@ const GlobalStyle = createGlobalStyle`
 body {
   background-color: var(--main-back-background-color);
   margin: 0;
-  padding: 10px;
   min-width: 100vw;
   min-height: 100vh;
   font-family: "Roboto";
+
 }
+
 
 a,
 a:focus,
